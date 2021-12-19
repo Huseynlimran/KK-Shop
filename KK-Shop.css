@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fs2 {
+  width: 100%;
+  background-color: #323232;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3em;
+}
+.fs2 a {
+  background-color: transparent;
+  text-decoration: none;
+}
+nav .iconlar {
+  color: #000000;
+}
+nav .iconlar:hover {
+  color: gray;
+}
+.home .container-fluid {
+  width: 100%;
+  padding-top: 42%;
+  background-image: url(img/Rectangle\ 5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.home button {
+  background: #000000;
+  color: white;
+  border: none;
+  transition: 0.9s;
+}
+.home button:hover {
+  border-radius: 30px 0 30px 0;
+}
+.info a {
+  text-decoration: none;
+  color: #cc4c6e;
+  transition: 0.6s;
+}
+.info a:hover {
+  color: gray;
+}
+.info-alt .br {
+  border: 1px solid rgba(128, 128, 128, 0.411);
+}
+.product .bgq {
+  background-color: #f3f3f3;
+}
+.son .sonb {
+  background-color: #000000;
+  color: white;
+  padding: 0.4em 8em;
+  transition: 0.5s;
+}
+.son .sonb:hover {
+  border-radius: 30px 0 30px 0;
+  background-color: transparent;
+  color: #000000;
+  border: #000000 dashed 1px;
+}
+.son input {
+  border: none;
+  border-bottom: 1px gray solid;
+  width: 58%;
+  background-color: transparent;
+  outline: none;
+}
+.son input::placeholder {
+  padding-left: 6px;
+}
+
+.son {
+  background: linear-gradient(90deg, white 40%, rgba(0, 0, 0, 0) 40%),
+    url(img/Rectangle\ 33.png);
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+}
+
+footer a i {
+  color: #000000;
+}
+footer a i:hover {
+  color: gray;
+}
+footer a {
+  color: gray;
+  text-decoration: none;
+  transition: 0.5s;
+}
+footer a:hover {
+  color: black;
+}
+footer .lg2 {
+  width: 40px;
+}
+footer .ici {
+  font-size: 40px;
+  color: rgba(128, 128, 128, 0.404);
+  padding-right: 10px;
+}
